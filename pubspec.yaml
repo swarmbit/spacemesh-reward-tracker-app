@@ -1,0 +1,43 @@
+name: spacemesh_reward_tracker
+description: A spacemesh reward tracker application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 2.1.0+87
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.1
+  http: ^1.1.2
+  json_annotation: ^4.8.1
+  intl: ^0.19.0
+  shared_preferences: ^2.2.2
+  firebase_core: ^3.2.0
+  firebase_analytics: ^11.2.0
+  firebase_remote_config: ^5.0.3
+  flutter_native_splash: ^2.3.6
+  google_fonts: ^6.1.0
+  share_plus: ^9.0.0
+  url_launcher: ^6.2.1
+  file_picker: ^8.0.6
+  humanize_duration: ^0.0.1+1
+  stack_appodeal_flutter: 3.3.1
+  firebase_messaging: ^15.0.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.7
+  json_serializable: ^6.7.1
+  test: ^1.25.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/google_fonts/
+    - assets/spacemesh/
